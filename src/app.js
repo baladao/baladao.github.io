@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 2000;
 
 app.set('port', PORT);
 
-app.use('/', express.static(path.join(__dirname, '../docs')));
+app.use('/', express.static(path.join(__dirname, '../')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../docs/index.html'));
+  res.sendFile(path.join(__dirname, '../index.html'));
 });
 
 app.listen(PORT, () => {
