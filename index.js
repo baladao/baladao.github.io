@@ -26943,8 +26943,8 @@
 	        { className: "ma4 f6" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "" },
-	          "v1"
+	          { className: "justify" },
+	          "I pursue challenges and believe they maximize my growth. I seek on learning new technologies, sharing knowledge and practicing it in order to become a specialist in Software Development. I\u2019m a self-taught learner, proactive, communicative and open to criticism. I\u2019m seeking the opportunity to work outside Brazil, as a software developer with technologies such as NodeJS and ReactJS and interact with off-country professionals to discover new cultures and ways of thinking."
 	        )
 	      );
 	    }
