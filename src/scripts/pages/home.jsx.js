@@ -6,7 +6,6 @@ class Home extends React.Component {
   render () {
     return (
       <div>
-        <Header />
         <About { ...this.props } />
       </div>
     );

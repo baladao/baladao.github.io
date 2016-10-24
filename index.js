@@ -63,11 +63,11 @@
 	
 	var _routes2 = _interopRequireDefault(_routes);
 	
-	var _tachyons = __webpack_require__(/*! ./css/tachyons.css */ 233);
+	var _tachyons = __webpack_require__(/*! ./css/tachyons.css */ 236);
 	
 	var _tachyons2 = _interopRequireDefault(_tachyons);
 	
-	var _history = __webpack_require__(/*! history */ 238);
+	var _history = __webpack_require__(/*! history */ 241);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26800,7 +26800,7 @@
 	
 	var _about2 = _interopRequireDefault(_about);
 	
-	var _home = __webpack_require__(/*! ./home.jsx */ 232);
+	var _home = __webpack_require__(/*! ./home.jsx */ 235);
 	
 	var _home2 = _interopRequireDefault(_home);
 	
@@ -26885,11 +26885,11 @@
 	
 	var _about2 = _interopRequireDefault(_about);
 	
-	var _header = __webpack_require__(/*! ./header.jsx */ 230);
+	var _header = __webpack_require__(/*! ./header.jsx */ 233);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	var _home = __webpack_require__(/*! ./home.jsx */ 231);
+	var _home = __webpack_require__(/*! ./home.jsx */ 234);
 	
 	var _home2 = _interopRequireDefault(_home);
 	
@@ -26906,7 +26906,7 @@
   \************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -26917,6 +26917,12 @@
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
+	
+	var _jobs = __webpack_require__(/*! ../jobs */ 230);
+	
+	var _jobs2 = _interopRequireDefault(_jobs);
+	
+	var _components = __webpack_require__(/*! ../components */ 231);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26936,16 +26942,141 @@
 	  }
 	
 	  _createClass(About, [{
-	    key: "render",
+	    key: 'getJob',
+	    value: function getJob(job) {
+	      return _react2.default.createElement(_components.Job, job);
+	    }
+	  }, {
+	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "div",
-	        { className: "ma4 f6" },
+	        'div',
+	        { className: 'f6' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "justify" },
-	          "I pursue challenges and believe they maximize my growth. I seek on learning new technologies, sharing knowledge and practicing it in order to become a specialist in Software Development. I\u2019m a self-taught learner, proactive, communicative and open to criticism. I\u2019m seeking the opportunity to work outside Brazil, as a software developer with technologies such as NodeJS and ReactJS and interact with off-country professionals to discover new cultures and ways of thinking."
-	        )
+	          'div',
+	          null,
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'pa4 center w-100 justify-center' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'f4 tc pv1' },
+	              'Gustavo Vargas Balad\xE3o'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'gray tc pv1' },
+	              'Software Developer at ADP Inc.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'gray tc pv1' },
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'ph1' },
+	                'Porto Alegre - RS, Brazil'
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'ph1' },
+	                'twitter - gustavobala'
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'ph1' },
+	                'stackoverflow - baladao'
+	              ),
+	              _react2.default.createElement(
+	                'span',
+	                { className: 'ph1' },
+	                'github - baladao'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'bg-near-white' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'pa4 center w-100 w-50-ns justify-center tc' },
+	            'I pursue challenges and believe they maximize my growth. I seek on learning new technologies, sharing knowledge and practicing it in order to become a specialist in Software Development. I\u2019m a self-taught learner, proactive, communicative and open to criticism. I\u2019m seeking the opportunity to work outside Brazil, as a software developer with technologies such as NodeJS and ReactJS and interact with off-country professionals to discover new cultures and ways of thinking.'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'pa4 center w-100 w-50-ns justify-center tc' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'mb2' },
+	            'I like working with'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'blue' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'node.js'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'react.js'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'microservices.js'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'ddd'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'tdd'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'java'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'javascript'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'webpack'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'agile'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'scrum'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'docker'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bg-lightest-blue pa1 ma1 br1 dib' },
+	              'es2016'
+	            )
+	          )
+	        ),
+	        _jobs2.default.map(this.getJob)
 	      );
 	    }
 	  }]);
@@ -26959,6 +27090,242 @@
 
 /***/ },
 /* 230 */
+/*!*************************!*\
+  !*** ./scripts/jobs.js ***!
+  \*************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = [{
+	  what: 'Position',
+	  period: {
+	    from: 'Aug 2013',
+	    to: 'Current (3+ years)'
+	  },
+	  position: 'Software Developer',
+	  at: 'ADP Inc',
+	  url: 'http://www.adp.com',
+	  topics: ['node.js', 'react.js', 'webpack', 'docker', 'tdd', 'ddd', 'java', 'es2015', 'microservices', 'mongodb'],
+	  about: 'Working in an innovation team, we develop robust web applications with cutting edge architecture and technologies such as Event Sourcing, CQRS, DDD, TDD, ReactJS, NodeJS, Java and others. We use agile SCRUM methodology and it\'s best practices to have a fast paced development cycle and keep up with a continuous delivery approach.'
+	}, {
+	  what: 'Open source',
+	  period: {
+	    from: 'Oct 2016',
+	    to: 'Current'
+	  },
+	  at: 'pixel-bricks',
+	  url: 'http://github.com/pixel-bricks',
+	  topics: ['webpack', 'react.js', 'es2015', 'chai', 'istanbul', 'mocha'],
+	  about: 'This project is to create some reactjs components to facilitate and speed-up the development of web application.'
+	}, {
+	  what: 'Open source',
+	  period: {
+	    from: 'Aug 2016',
+	    to: 'Current'
+	  },
+	  at: 'react-routes',
+	  url: 'http://github.com/baladao/react-routes',
+	  topics: ['react.js', 'react-routes']
+	}, {
+	  what: 'what',
+	  period: {
+	    from: 'from',
+	    to: 'to'
+	  },
+	  position: 'Software Developer',
+	  at: 'at',
+	  url: '',
+	  topics: ['topic1', 'topic2'],
+	  about: 'about'
+	}];
+
+/***/ },
+/* 231 */
+/*!*************************************!*\
+  !*** ./scripts/components/index.js ***!
+  \*************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.Job = undefined;
+	
+	var _job = __webpack_require__(/*! ./job.jsx */ 232);
+	
+	var _job2 = _interopRequireDefault(_job);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	exports.Job = _job2.default;
+
+/***/ },
+/* 232 */
+/*!***************************************!*\
+  !*** ./scripts/components/job.jsx.js ***!
+  \***************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Job = function (_React$Component) {
+	  _inherits(Job, _React$Component);
+	
+	  function Job(props) {
+	    _classCallCheck(this, Job);
+	
+	    return _possibleConstructorReturn(this, (Job.__proto__ || Object.getPrototypeOf(Job)).call(this, props));
+	  }
+	
+	  _createClass(Job, [{
+	    key: 'renderPeriod',
+	    value: function renderPeriod() {
+	      var period = [];
+	      var periodRender = null;
+	
+	      this.props.what && period.push(this.props.what);
+	      this.props.period.from && period.push(this.props.period.from);
+	      this.props.period.to && period.push(this.props.period.to);
+	
+	      if (period.length > 0) {
+	        periodRender = _react2.default.createElement(
+	          'div',
+	          { className: 'f6 gray pa2 bb b--light-gray' },
+	          period.join(' - ')
+	        );
+	      }
+	
+	      return periodRender;
+	    }
+	  }, {
+	    key: 'renderPosition',
+	    value: function renderPosition() {
+	      var position = [];
+	      var positionRender = null;
+	
+	      this.props.position && position.push(this.props.position + ' at ');
+	      if (this.props.at) {
+	        var positionLink = _react2.default.createElement(
+	          'a',
+	          { className: 'no-underline blue', href: this.props.url, target: '_blank' },
+	          this.props.at
+	        );
+	        position.push(positionLink);
+	      }
+	
+	      if (position.length > 0) {
+	        positionRender = _react2.default.createElement(
+	          'div',
+	          { className: 'f5 black' },
+	          position
+	        );
+	      }
+	
+	      return positionRender;
+	    }
+	  }, {
+	    key: 'renderTopic',
+	    value: function renderTopic(topic) {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'pa1 dib' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'bg-lightest-blue pa1 br1' },
+	          topic
+	        )
+	      );
+	    }
+	  }, {
+	    key: 'renderTopics',
+	    value: function renderTopics() {
+	      var topicsRender = null;
+	
+	      if (this.props.topics) {
+	        topicsRender = _react2.default.createElement(
+	          'div',
+	          { className: 'pv2 blue' },
+	          this.props.topics.map(this.renderTopic)
+	        );
+	      }
+	
+	      return topicsRender;
+	    }
+	  }, {
+	    key: 'renderAbout',
+	    value: function renderAbout() {
+	      var aboutRender = null;
+	
+	      if (this.props.about) {
+	        aboutRender = _react2.default.createElement(
+	          'span',
+	          null,
+	          this.props.about
+	        );
+	      };
+	
+	      return aboutRender;
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var classes = this.props.position ? ' b--orange' : ' b--light-blue';
+	      return _react2.default.createElement(
+	        'div',
+	        { className: "center w-100 w-40-ns justify-center mb3 bt bw1 " + classes },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'ph2 ba b--light-gray' },
+	          this.renderPeriod(),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'pv2' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'f6 gray pa2' },
+	              this.renderPosition(),
+	              this.renderTopics(),
+	              this.renderAbout()
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Job;
+	}(_react2.default.Component);
+	
+	;
+	
+	exports.default = Job;
+
+/***/ },
+/* 233 */
 /*!*************************************!*\
   !*** ./scripts/pages/header.jsx.js ***!
   \*************************************/
@@ -26998,7 +27365,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "ma4" },
+	        { className: "pa4" },
 	        _react2.default.createElement(
 	          "span",
 	          { className: "f3" },
@@ -27016,7 +27383,7 @@
 	exports.default = Header;
 
 /***/ },
-/* 231 */
+/* 234 */
 /*!***********************************!*\
   !*** ./scripts/pages/home.jsx.js ***!
   \***********************************/
@@ -27038,7 +27405,7 @@
 	
 	var _about2 = _interopRequireDefault(_about);
 	
-	var _header = __webpack_require__(/*! ./header.jsx */ 230);
+	var _header = __webpack_require__(/*! ./header.jsx */ 233);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
@@ -27065,7 +27432,6 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(_about2.default, this.props)
 	      );
 	    }
@@ -27079,7 +27445,7 @@
 	exports.default = Home;
 
 /***/ },
-/* 232 */
+/* 235 */
 /*!************************************!*\
   !*** ./scripts/routes/home.jsx.js ***!
   \************************************/
@@ -27135,7 +27501,7 @@
 	exports.default = HomeRoutes;
 
 /***/ },
-/* 233 */
+/* 236 */
 /*!**********************************!*\
   !*** ./scripts/css/tachyons.css ***!
   \**********************************/
@@ -27144,10 +27510,10 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./../../../~/css-loader!./../../../~/postcss-loader!./tachyons.css */ 234);
+	var content = __webpack_require__(/*! !./../../../~/css-loader!./../../../~/postcss-loader!./tachyons.css */ 237);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(/*! ./../../../~/style-loader/addStyles.js */ 237)(content, {});
+	var update = __webpack_require__(/*! ./../../../~/style-loader/addStyles.js */ 240)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -27164,15 +27530,15 @@
 	}
 
 /***/ },
-/* 234 */
+/* 237 */
 /*!**********************************************************************!*\
   !*** ../~/css-loader!../~/postcss-loader!./scripts/css/tachyons.css ***!
   \**********************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(/*! ./../../../~/css-loader/lib/css-base.js */ 235)();
+	exports = module.exports = __webpack_require__(/*! ./../../../~/css-loader/lib/css-base.js */ 238)();
 	// imports
-	exports.i(__webpack_require__(/*! -!./../../../~/css-loader!tachyons/css/tachyons.min.css */ 236), "");
+	exports.i(__webpack_require__(/*! -!./../../../~/css-loader!tachyons/css/tachyons.min.css */ 239), "");
 	
 	// module
 	exports.push([module.id, "\n", ""]);
@@ -27181,7 +27547,7 @@
 
 
 /***/ },
-/* 235 */
+/* 238 */
 /*!***************************************!*\
   !*** ../~/css-loader/lib/css-base.js ***!
   \***************************************/
@@ -27240,13 +27606,13 @@
 
 
 /***/ },
-/* 236 */
+/* 239 */
 /*!**********************************************************!*\
   !*** ../~/css-loader!../~/tachyons/css/tachyons.min.css ***!
   \**********************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(/*! ./../../css-loader/lib/css-base.js */ 235)();
+	exports = module.exports = __webpack_require__(/*! ./../../css-loader/lib/css-base.js */ 238)();
 	// imports
 	
 	
@@ -27257,7 +27623,7 @@
 
 
 /***/ },
-/* 237 */
+/* 240 */
 /*!**************************************!*\
   !*** ../~/style-loader/addStyles.js ***!
   \**************************************/
@@ -27512,7 +27878,7 @@
 
 
 /***/ },
-/* 238 */
+/* 241 */
 /*!*********************************!*\
   !*** ../~/history/lib/index.js ***!
   \*********************************/
@@ -27556,7 +27922,7 @@
 	
 	exports.useBasename = _useBasename3['default'];
 	
-	var _useBeforeUnload2 = __webpack_require__(/*! ./useBeforeUnload */ 239);
+	var _useBeforeUnload2 = __webpack_require__(/*! ./useBeforeUnload */ 242);
 	
 	var _useBeforeUnload3 = _interopRequireDefault(_useBeforeUnload2);
 	
@@ -27576,13 +27942,13 @@
 	
 	// deprecated
 	
-	var _enableBeforeUnload2 = __webpack_require__(/*! ./enableBeforeUnload */ 240);
+	var _enableBeforeUnload2 = __webpack_require__(/*! ./enableBeforeUnload */ 243);
 	
 	var _enableBeforeUnload3 = _interopRequireDefault(_enableBeforeUnload2);
 	
 	exports.enableBeforeUnload = _enableBeforeUnload3['default'];
 	
-	var _enableQueries2 = __webpack_require__(/*! ./enableQueries */ 241);
+	var _enableQueries2 = __webpack_require__(/*! ./enableQueries */ 244);
 	
 	var _enableQueries3 = _interopRequireDefault(_enableQueries2);
 	
@@ -27591,7 +27957,7 @@
 	exports.createLocation = createLocation;
 
 /***/ },
-/* 239 */
+/* 242 */
 /*!*******************************************!*\
   !*** ../~/history/lib/useBeforeUnload.js ***!
   \*******************************************/
@@ -27710,7 +28076,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 240 */
+/* 243 */
 /*!**********************************************!*\
   !*** ../~/history/lib/enableBeforeUnload.js ***!
   \**********************************************/
@@ -27726,7 +28092,7 @@
 	
 	var _deprecate2 = _interopRequireDefault(_deprecate);
 	
-	var _useBeforeUnload = __webpack_require__(/*! ./useBeforeUnload */ 239);
+	var _useBeforeUnload = __webpack_require__(/*! ./useBeforeUnload */ 242);
 	
 	var _useBeforeUnload2 = _interopRequireDefault(_useBeforeUnload);
 	
@@ -27734,7 +28100,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 241 */
+/* 244 */
 /*!*****************************************!*\
   !*** ../~/history/lib/enableQueries.js ***!
   \*****************************************/
