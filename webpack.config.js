@@ -48,6 +48,9 @@ module.exports = {
 
     new CopyWebpackPlugin([{
       from: 'manifest.json',
+    },{
+      from: 'font-awesome',
+      to: 'font-awesome'
     }]),
 
     new webpack.DefinePlugin({

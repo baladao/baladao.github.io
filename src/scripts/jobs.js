@@ -44,6 +44,7 @@ export default [
       from: 'Jan 2011',
       to: 'Aug 2013'
     },
+    position: 'Client Support and Developer',
     at: 'EZCommerce',
     url:'http://www.ezcommerce.com.br',
     topics: ['c#', 'javascript', 'erp', 'sql-server', 'html', 'css', 'asp.net'],

@@ -16,25 +16,25 @@ class About extends React.Component {
             <div className="f4 tc pv1">Gustavo Vargas Baladão</div>
             <div className="gray tc pv1">Software Developer at ADP Inc.</div>
             <div className="gray tc pv1">
-              <span className="ph1">
+              <span className="ph2">
                 Porto Alegre - RS, Brazil
               </span>
-              <span className="ph1">
-                <a className="no-underline gray" href="http://twitter.com/gustavobala">
-                  <span className="fa fa-twitter"></span>
-                  @gustavobala
+              <span className="ph2">
+                <a className="no-underline gray" href="http://twitter.com/gustavobala" target="_blank">
+                  <span className="fa fa-twitter mr1"></span>
+                  gustavobala
                 </a>
               </span>
-              <span className="ph1">
-                <a className="no-underline gray" href="http://stackoverflow.com/story/baladao">
-                  <span className="fa fa-circle"></span>
-                  @baladao
+              <span className="ph2">
+                <a className="no-underline gray" href="http://stackoverflow.com/story/baladao" target="_blank">
+                  <span className="fa fa-stack-overflow mr1"></span>
+                  baladao
                 </a>
               </span>
-              <span className="ph1">
-                <a className="no-underline gray" href="http://github.com/baladao">
-                  <span className="fa fa-github"></span>
-                  @baladao
+              <span className="ph2">
+                <a className="no-underline gray" href="http://github.com/baladao" target="_blank">
+                  <span className="fa fa-github mr1"></span>
+                  baladao
                 </a>
               </span>
             </div>
