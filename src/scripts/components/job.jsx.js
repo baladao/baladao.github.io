@@ -95,7 +95,7 @@ class Job extends React.Component {
   render () {
     const classes = this.props.position ? ' b--orange' : ' b--light-blue';
     return (
-      <div className={ "center w-100 w-40-ns justify-center mb3 bt bw1 " + classes }>
+      <div className={ "center w-100 w-40-l justify-center mb3 bt bw1 " + classes }>
         <div className="ph2 ba b--light-gray">
           { this.renderPeriod() }
           <div className="pv2">

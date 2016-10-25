@@ -11,41 +11,12 @@ class About extends React.Component {
   render () {
     return (
       <div className="f6">
-        <div>
-          <div className="pa4 center w-100 justify-center">
-            <div className="f4 tc pv1">Gustavo Vargas Baladão</div>
-            <div className="gray tc pv1">Software Developer at ADP Inc.</div>
-            <div className="gray tc pv1">
-              <span className="ph2">
-                Porto Alegre - RS, Brazil
-              </span>
-              <span className="ph2">
-                <a className="no-underline gray" href="http://twitter.com/gustavobala" target="_blank">
-                  <span className="fa fa-twitter mr1"></span>
-                  gustavobala
-                </a>
-              </span>
-              <span className="ph2">
-                <a className="no-underline gray" href="http://stackoverflow.com/story/baladao" target="_blank">
-                  <span className="fa fa-stack-overflow mr1"></span>
-                  baladao
-                </a>
-              </span>
-              <span className="ph2">
-                <a className="no-underline gray" href="http://github.com/baladao" target="_blank">
-                  <span className="fa fa-github mr1"></span>
-                  baladao
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
         <div className="bg-near-white">
-          <div className="pa4 center w-100 w-50-ns justify-center tc">
+          <div className="pa4 center w-100 w-50-l justify-center tc">
             I pursue challenges and believe they maximize my growth. I seek on learning new technologies, sharing knowledge and practicing it in order to become a specialist in Software Development. I’m a self-taught learner, proactive, communicative and open to criticism. I’m seeking the opportunity to work outside Brazil, as a software developer with technologies such as NodeJS and ReactJS and interact with off-country professionals to discover new cultures and ways of thinking.
           </div>
         </div>
-        <div className="pa4 center w-100 w-50-ns justify-center tc">
+        <div className="pa4 center w-100 w-50-l justify-center tc">
           <div className="mb2">
             I like working with
           </div>

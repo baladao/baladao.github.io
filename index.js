@@ -26954,73 +26954,16 @@
 	        { className: 'f6' },
 	        _react2.default.createElement(
 	          'div',
-	          null,
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'pa4 center w-100 justify-center' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'f4 tc pv1' },
-	              'Gustavo Vargas Balad\xE3o'
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'gray tc pv1' },
-	              'Software Developer at ADP Inc.'
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'gray tc pv1' },
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'ph2' },
-	                'Porto Alegre - RS, Brazil'
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'ph2' },
-	                _react2.default.createElement(
-	                  'a',
-	                  { className: 'no-underline gray', href: 'http://twitter.com/gustavobala', target: '_blank' },
-	                  _react2.default.createElement('span', { className: 'fa fa-twitter mr1' }),
-	                  'gustavobala'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'ph2' },
-	                _react2.default.createElement(
-	                  'a',
-	                  { className: 'no-underline gray', href: 'http://stackoverflow.com/story/baladao', target: '_blank' },
-	                  _react2.default.createElement('span', { className: 'fa fa-stack-overflow mr1' }),
-	                  'baladao'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'span',
-	                { className: 'ph2' },
-	                _react2.default.createElement(
-	                  'a',
-	                  { className: 'no-underline gray', href: 'http://github.com/baladao', target: '_blank' },
-	                  _react2.default.createElement('span', { className: 'fa fa-github mr1' }),
-	                  'baladao'
-	                )
-	              )
-	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
 	          { className: 'bg-near-white' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'pa4 center w-100 w-50-ns justify-center tc' },
+	            { className: 'pa4 center w-100 w-50-l justify-center tc' },
 	            'I pursue challenges and believe they maximize my growth. I seek on learning new technologies, sharing knowledge and practicing it in order to become a specialist in Software Development. I\u2019m a self-taught learner, proactive, communicative and open to criticism. I\u2019m seeking the opportunity to work outside Brazil, as a software developer with technologies such as NodeJS and ReactJS and interact with off-country professionals to discover new cultures and ways of thinking.'
 	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'pa4 center w-100 w-50-ns justify-center tc' },
+	          { className: 'pa4 center w-100 w-50-l justify-center tc' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'mb2' },
@@ -27324,7 +27267,7 @@
 	      var classes = this.props.position ? ' b--orange' : ' b--light-blue';
 	      return _react2.default.createElement(
 	        'div',
-	        { className: "center w-100 w-40-ns justify-center mb3 bt bw1 " + classes },
+	        { className: "center w-100 w-40-l justify-center mb3 bt bw1 " + classes },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'ph2 ba b--light-gray' },
@@ -27393,11 +27336,65 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "pa4" },
+	        { className: "pa4 center w-100 justify-center" },
 	        _react2.default.createElement(
-	          "span",
-	          { className: "f3" },
+	          "div",
+	          { className: "f4 tc pv1" },
 	          "Gustavo Vargas Balad\xE3o"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "gray tc pv1" },
+	          "Software Developer at ADP Inc."
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "gray tc pv1" },
+	          "Porto Alegre - RS, Brazil"
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "gray tc pv1 flex-row justify-center" },
+	          _react2.default.createElement(
+	            "span",
+	            { className: "pa2 order-1 flex inline-flex-ns" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "no-underline gray", href: "http://twitter.com/gustavobala", target: "_blank" },
+	              _react2.default.createElement("span", { className: "fa fa-twitter mr1" }),
+	              "gustavobala"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "span",
+	            { className: "pa2 order-2 flex inline-flex-ns" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "no-underline gray", href: "http://stackoverflow.com/story/baladao", target: "_blank" },
+	              _react2.default.createElement("span", { className: "fa fa-stack-overflow mr1" }),
+	              "baladao"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "span",
+	            { className: "pa2 order-3 flex inline-flex-ns" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "no-underline gray", href: "http://github.com/baladao", target: "_blank" },
+	              _react2.default.createElement("span", { className: "fa fa-github mr1" }),
+	              "baladao"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "span",
+	            { className: "pa2 order-4 flex inline-flex-ns" },
+	            _react2.default.createElement(
+	              "a",
+	              { className: "no-underline gray", href: "http://github.com/baladao", target: "_blank" },
+	              _react2.default.createElement("span", { className: "fa fa-google mr1" }),
+	              "x.baladao@gmail.com"
+	            )
+	          )
 	        )
 	      );
 	    }
@@ -27460,6 +27457,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
+	        _react2.default.createElement(_header2.default, null),
 	        _react2.default.createElement(_about2.default, this.props)
 	      );
 	    }
