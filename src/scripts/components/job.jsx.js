@@ -31,11 +31,15 @@ class Job extends React.Component {
 
     this.props.position && position.push(this.props.position + ' at ');
     if (this.props.at) {
-      const positionLink = (
-        <a className="no-underline blue" href={this.props.url} target="_blank">
-          { this.props.at }
-        </a>
-      );
+      let positionLink = this.props.at;
+      if (this.props.url) {
+        positionLink = (
+          <a className="no-underline blue" href={this.props.url} target="_blank">
+            { this.props.at }
+          </a>
+        );
+      }
+
       position.push(positionLink);
     }
 

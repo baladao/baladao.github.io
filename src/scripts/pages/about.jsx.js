@@ -20,13 +20,22 @@ class About extends React.Component {
                 Porto Alegre - RS, Brazil
               </span>
               <span className="ph1">
-                twitter - gustavobala
+                <a className="no-underline gray" href="http://twitter.com/gustavobala">
+                  <span className="fa fa-twitter"></span>
+                  @gustavobala
+                </a>
               </span>
               <span className="ph1">
-                stackoverflow - baladao
+                <a className="no-underline gray" href="http://stackoverflow.com/story/baladao">
+                  <span className="fa fa-circle"></span>
+                  @baladao
+                </a>
               </span>
               <span className="ph1">
-                github - baladao
+                <a className="no-underline gray" href="http://github.com/baladao">
+                  <span className="fa fa-github"></span>
+                  @baladao
+                </a>
               </span>
             </div>
           </div>

@@ -30,15 +30,23 @@ export default [
     url:'http://github.com/baladao/react-routes',
     topics: ['react.js', 'react-routes']
   },{
-    what: 'what',
+    what: 'Education',
     period: {
-      from: 'from',
-      to: 'to'
+      from: '2011',
+      to: '2015 (4 years)'
     },
-    position: 'Software Developer',
-    at: 'at',
-    url: '',
-    topics: ['topic1', 'topic2'],
-    about: 'about'
+    at: 'Bachelor in Information Systems, Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)',
+    topics: ['java', 'itil', 'tdd', 'artificial-intelligence', 'nlp'],
+    about: 'On my final year of graduation, I developed a system using NLP to create a progressive reading experience of topics and articles. It was a website in which you could search for keywords and you would get a serie of paragraphs of many articles to read, as you read and select topics that interest you,the system would suggest articles to lead you in a more in-depth approach of the topic or lead you to other topics of interest, depending on your navigation through the system and search history.'
+  },{
+    what: 'Position',
+    period: {
+      from: 'Jan 2011',
+      to: 'Aug 2013'
+    },
+    at: 'EZCommerce',
+    url:'http://www.ezcommerce.com.br',
+    topics: ['c#', 'javascript', 'erp', 'sql-server', 'html', 'css', 'asp.net'],
+    about: 'In this position, I was responsible to support clients, fix product production issues and develop applications to automate daily tasks.'
   }
 ]
