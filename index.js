@@ -26973,37 +26973,37 @@
 	              { className: 'gray tc pv1' },
 	              _react2.default.createElement(
 	                'span',
-	                { className: 'ph1' },
+	                { className: 'ph2' },
 	                'Porto Alegre - RS, Brazil'
 	              ),
 	              _react2.default.createElement(
 	                'span',
-	                { className: 'ph1' },
+	                { className: 'ph2' },
 	                _react2.default.createElement(
 	                  'a',
-	                  { className: 'no-underline gray', href: 'http://twitter.com/gustavobala' },
-	                  _react2.default.createElement('span', { className: 'fa fa-twitter' }),
-	                  '@gustavobala'
+	                  { className: 'no-underline gray', href: 'http://twitter.com/gustavobala', target: '_blank' },
+	                  _react2.default.createElement('span', { className: 'fa fa-twitter mr1' }),
+	                  'gustavobala'
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'span',
-	                { className: 'ph1' },
+	                { className: 'ph2' },
 	                _react2.default.createElement(
 	                  'a',
-	                  { className: 'no-underline gray', href: 'http://stackoverflow.com/story/baladao' },
-	                  _react2.default.createElement('span', { className: 'fa fa-circle' }),
-	                  '@baladao'
+	                  { className: 'no-underline gray', href: 'http://stackoverflow.com/story/baladao', target: '_blank' },
+	                  _react2.default.createElement('span', { className: 'fa fa-stack-overflow mr1' }),
+	                  'baladao'
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'span',
-	                { className: 'ph1' },
+	                { className: 'ph2' },
 	                _react2.default.createElement(
 	                  'a',
-	                  { className: 'no-underline gray', href: 'http://github.com/baladao' },
-	                  _react2.default.createElement('span', { className: 'fa fa-github' }),
-	                  '@baladao'
+	                  { className: 'no-underline gray', href: 'http://github.com/baladao', target: '_blank' },
+	                  _react2.default.createElement('span', { className: 'fa fa-github mr1' }),
+	                  'baladao'
 	                )
 	              )
 	            )
