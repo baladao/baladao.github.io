@@ -27062,7 +27062,7 @@
 	  what: 'Position',
 	  period: {
 	    from: 'Aug 2013',
-	    to: 'Current (3+ years)'
+	    to: 'Jun 2017'
 	  },
 	  position: 'Software Developer',
 	  at: 'ADP Inc',
@@ -27345,7 +27345,7 @@
 	        _react2.default.createElement(
 	          "div",
 	          { className: "gray tc pv1" },
-	          "Software Developer at ADP Inc."
+	          "Software Developer at Globo.com"
 	        ),
 	        _react2.default.createElement(
 	          "div",
