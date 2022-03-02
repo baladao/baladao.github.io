@@ -15,28 +15,28 @@ export default () => {
 
           <Grid>
             <CardSection link="https://arctouch.com">
-              <h3>ArcTouch &rarr;</h3>
+              <h3><Link to="https://arctouch.com">ArcTouch &rarr;</Link></h3>
               <Code>
                 Currently working on a project for <Link to="https://www.hp.com">HP</Link> using <Link to="https://single-spa.js.org">SSPA</Link>, <Link to="https://micro-frontends.org">MFEs</Link> and <Link to="https://reactjs.org">React</Link>.
               </Code>
             </CardSection>
 
             <CardSection link="https://www.yieldstreet.com">
-              <h3>YieldStreet &rarr;</h3>
+              <h3><Link to="https://yieldstreet.com">YieldStreet &rarr;</Link></h3>
               <Code>
                 As part of the Alternative Investments product the using <Link to="https://reactjs.org">React</Link> for Web and <Link to="https://reactnative.dev">React Native</Link> for Mobile.
               </Code>
             </CardSection>
 
             <CardSection link="https://www.globo.com">
-              <h3>Globo.com &rarr;</h3>
+              <h3><Link to="https://globo.com">Globo.com &rarr;</Link></h3>
               <Code>
                 At <Link to="https://globoplay.com">globoplay</Link> developed the Web and Backend product using <Link to="https://reactjs.org">React</Link> and <Link to="https://www.apollographql.com">Apollo</Link> for Web and <Link to="https://nodejs.org">NodeJS</Link> and <Link to="https://www.apollographql.com">Apollo</Link> for the Backend.
               </Code>
             </CardSection>
 
             <CardSection link="https://www.adp.com">
-              <h3>ADP Inc. &rarr;</h3>
+              <h3><Link to="https://adp.com">ADP Inc. &rarr;</Link></h3>
               <Code>
                 Worked at <Link to="https://expert.brasil.adp.com/instructions/instructions.html">Service Place</Link> using <Link to="https://reactjs.org">React</Link> for Web and <Link to="https://nodejs.org">NodeJS</Link> for the Backend.
               </Code>
