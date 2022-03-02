@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/baladao/baladao.github.io/issues"
   },
-  "homepage": "https://github.com/baladao/baladao.github.io#readme"
+  "homepage": "https://github.com/baladao/baladao.github.io#readme",
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.6"
+  }
 }
